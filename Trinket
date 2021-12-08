@@ -1,0 +1,16 @@
+#!/bin/python3
+
+import turtle
+import random
+noah = turtle.Turtle()
+turtle.Screen().bgcolor
+colours = ["cyan", "purple","white", "blue"]
+noah.color("cyan")
+for i in range (10):
+  for i in range (2):
+    noah.forward(100)
+    noah.right(60)
+    noah.forward(100)
+    noah.right(120)
+  noah.right(36)
+  noah.color(random.choice(colours))
